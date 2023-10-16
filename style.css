@@ -1,0 +1,26 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #fff;
+}
+
+body {
+  background-color: #000;
+}
+
+#canvas {
+  z-index: 999999999;
+}
+
+#defaultCanvas0 {
+  margin: auto;
+  position: absolute;
+  top: -30%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-width: 600px;
+  max-height: 349px;
+  
+}

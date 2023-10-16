@@ -1,38 +1,34 @@
-html,body{
+body {
+  background-color: black;
+}
+
+canvas{
+  position: absolute;
+  top:0;
+  left:0;
+  z-index:-1;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  color: #fff;
-}
-
-body {
-  background-color: #000;
 }
 
 #canvas {
   z-index: 999999999;
 }
 
-#defaultCanvas0 {
+.logo {
   margin: auto;
   position: absolute;
   top: -30%;
   left: 0;
   bottom: 0;
   right: 0;
-  max-width: 600px;
-  max-height: 349px;
+  max-width: 400px;
+  max-height: auto;
 }
 
-
-
 @media only screen and (max-width: 600px) {
-  #defaultCanvas0 {
-    max-width: 280px;
-    max-height: 163px;
-  }
-
-  #canvas {
-    transform: scale(1.5);
+  .logo {
+    max-width: 180px;
   }
 }

@@ -22,5 +22,17 @@ body {
   right: 0;
   max-width: 600px;
   max-height: 349px;
-  
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  #defaultCanvas0 {
+    max-width: 280px;
+    max-height: 163px;
+  }
+
+  #canvas {
+    transform: scale(1.5);
+  }
 }
